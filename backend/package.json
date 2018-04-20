@@ -1,11 +1,38 @@
 {
-  "name": "sar-backend",
+  "name": "safecityapp",
   "version": "1.0.0",
-  "description": "Este es el backend del sistema de alerta de robos",
+  "description": "Proyecto de Backend de APP SafeCity",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "npm": "5.8.0"
   },
-  "author": "Joshua Navarro Ruiz",
-  "license": "ISC"
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pruebas": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshuanr5/sistema-alerta-robos.git"
+  },
+  "author": "Gamba~ (Anthony R.)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshuanr5/sistema-alerta-robos/issues"
+  },
+  "homepage": "https://github.com/joshuanr5/sistema-alerta-robos/blob/master/README.md",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.20.1",
+    "mongoose": "^5.0.7",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.15.1"
+  }
 }

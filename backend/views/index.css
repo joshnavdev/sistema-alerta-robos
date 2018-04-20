@@ -1,0 +1,14 @@
+.index {
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  font-weight: bold;
+  text-align: center; }
+  .index .index-title {
+    font-size: 36px; }
+  .index .index-message {
+    font-size: 16px; }
+  .index .index-footer {
+    font-size: 12px; }
+  .index span {
+    font-size: 12px; }
+
+/*# sourceMappingURL=index.css.map */
